@@ -1,0 +1,53 @@
+etc: word.txt
+
+# 따르다
+conform
+accordance
+compatible
+obey
+accept
+agree
+follow
+recognize
+allow
+permit
+authorize
+
+antonym
+conflict
+
+
+
+# 정의역 - 치역
+x - y
+정의역 - 치역, 공역
+x 에 대한 y 값
+input - output
+
+
+
+# 생산 - 소비
+작가 - 독자
+전달 - 수용
+발신 - 수신
+송신 - 수신
+
+전파자, 지시자
+
+
+
+# 앞 - 뒤
+prefix - suffix
+prepend - append
+head - tail
+top - bottom
+previous - next
+pre (before) - peri (during) - post (after)
+start, begin - end (iterator)
+prologue - epilogue
+before - after
+left - right
+front - back, rear
+up - down
+old - new
+first - last

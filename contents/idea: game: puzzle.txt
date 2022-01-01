@@ -1,0 +1,4 @@
+idea: game: puzzle.txt
+
+나와 물체의 상호작용
+물체와 물체의 상호작용
