@@ -1,0 +1,44 @@
+list: device purchase log.txt
+
+2021-10-19 17,360
+DIR-806M 17,360
+
+2021-07-20 399,000
+LG전자 27UL550 399,000
+
+2021-07-19 22,980
+NorthBayou NB H100 모니터암 22,980
+
+2021-07-12 64,000
+Belkin USB-C to HDMI Adapter 64,000
+
+2021-06-25 595,000
+iPhone SE (2nd generation) 64GB 블랙 550,000
+iPhone SE 실리콘 케이스 - 블랙 45,000
+
+2021-02-19 238,000
+Magic Mouse 2 -실버 89,000
+Magic Keyboard with Numeric Keypad 149,000
+
+2020-12-24 1,365,000
+13형 MacBook Air - 스페이스 그레이 256GB 1,290,000
+	USB-C-Lightning 케이블(1m) 25,000
+	USB-C-USB 어댑터 25,000
+	Lightning-USB 케이블(1m) 25,000
+
+2018-11-20 549,000
+iPhone 6S 32GB 실버
+iPhone 6S 실리콘 케이스 - 블랙
+
+2018-03-06 675,000
+iPad (6th generation) 32GB 556,000(?)
+apple pencil (1st generation) 119,000
+
+201?-??-?? ??
+iPone 5S 16GB 화이트/실버
+
+2013 mid 1,290,000
+11형 MacBook Air 128GB 1,290,000
+
+2011-??-?? ??
+iPone 4S 8GB(?) 블랙
