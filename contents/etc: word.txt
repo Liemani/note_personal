@@ -95,3 +95,72 @@ receive / send
 record / store
 scan / print
 get / put
+
+
+
+# 데이터 관리
+create
+new
+init
+
+add
+push
+append
+
+edit
+update
+modify
+fix
+move
+
+remove
+pop
+delete
+destroy
+
+
+
+# 수행하다
+do
+act
+process
+각종 행동 up down recieve
+work
+conduct
+carry out
+perform
+practice
+execute
+
+
+
+# 작업 관련
+worktree
+workspace
+workbench
+tool
+
+
+
+# 제외, 아니다
+not
+except
+exclude
+complement
+
+
+
+# 달성, 끝내다, 완수하다
+achieve
+obey
+accord
+conform
+finish
+complete
+goal
+accomplish
+end
+
+
+
+# 물리 - 물리적이지 않은 것

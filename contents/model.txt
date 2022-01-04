@@ -1,6 +1,9 @@
 model: pour.txt
 
 # program
+stable 버전과 unstable 버전
+	- stable 버전은 안정성이 확인된 버전
+	- unstable 버전은 최신 버전이지만 안정성이 확인되지 않은 버전
 property
 대중적 - 전문적
 프로그램은 단순히 추상적인 세상을 구체화하여 모델링하여 구현하였을 뿐이다
