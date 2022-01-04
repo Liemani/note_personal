@@ -2,6 +2,13 @@ let SessionLoad = 1
 if &cp | set nocp | endif
 let s:cpo_save=&cpo
 set cpo&vim
+cnoremap <C-D> <Del>
+cnoremap <C-N> <Down>
+cnoremap <C-P> <Up>
+cnoremap <C-B> <Left>
+cnoremap <C-F> <Right>
+cnoremap <C-E> <End>
+cnoremap <C-A> <Home>
 map! <D-v> *
 vnoremap / : norm i//	
 vnoremap ? : norm 3x
@@ -29,6 +36,13 @@ vmap <D-x> "*d
 vmap <D-c> "*y
 vmap <D-v> "-d"*P
 nmap <D-v> "*P
+cnoremap  <Home>
+cnoremap  <Left>
+cnoremap  <Del>
+cnoremap  <End>
+cnoremap  <Right>
+cnoremap  <Down>
+cnoremap  <Up>
 inoremap fj 
 inoremap jf 
 let &cpo=s:cpo_save
@@ -41,15 +55,19 @@ set cindent
 set display=truncate
 set fileencodings=ucs-bom,utf-8,default,latin1
 set helplang=ko
+set hidden
 set hlsearch
+set ignorecase
 set incsearch
 set laststatus=2
+set listchars=
 set modelines=0
 set nrformats=bin,hex
 set ruler
 set shellcmdflag=-ic
 set shiftwidth=4
 set showcmd
+set showmatch
 set smartcase
 set smartindent
 set smarttab
@@ -58,7 +76,7 @@ set ttimeout
 set ttimeoutlen=100
 set wildmenu
 set window=0
-let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-1 siso=-1
+let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
@@ -87,11 +105,11 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 50 + 50) / 100)
-exe '2resize ' . ((&lines * 29 + 30) / 61)
-exe 'vert 2resize ' . ((&columns * 49 + 50) / 100)
-exe '3resize ' . ((&lines * 29 + 30) / 61)
-exe 'vert 3resize ' . ((&columns * 49 + 50) / 100)
+exe 'vert 1resize ' . ((&columns * 42 + 42) / 84)
+exe '2resize ' . ((&lines * 49 + 50) / 100)
+exe 'vert 2resize ' . ((&columns * 41 + 42) / 84)
+exe '3resize ' . ((&lines * 48 + 50) / 100)
+exe 'vert 3resize ' . ((&columns * 41 + 42) / 84)
 argglobal
 enew
 setlocal autoindent
@@ -155,7 +173,6 @@ setlocal nolinebreak
 setlocal nolisp
 setlocal lispwords=
 setlocal nolist
-setlocal listchars=
 setlocal makeencoding=
 setlocal makeprg=
 setlocal matchpairs=(:),{:},[:]
@@ -185,7 +202,6 @@ setlocal nospell
 setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
 setlocal spellfile=
 setlocal spelllang=en
-setlocal spelloptions=
 setlocal statusline=
 setlocal suffixesadd=
 setlocal swapfile
@@ -273,7 +289,6 @@ setlocal nolinebreak
 setlocal nolisp
 setlocal lispwords=
 setlocal nolist
-setlocal listchars=
 setlocal makeencoding=
 setlocal makeprg=
 setlocal matchpairs=(:),{:},[:]
@@ -303,7 +318,6 @@ setlocal nospell
 setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
 setlocal spellfile=
 setlocal spelllang=en
-setlocal spelloptions=
 setlocal statusline=
 setlocal suffixesadd=
 setlocal swapfile
@@ -328,18 +342,16 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let &fdl = &fdl
-let s:l = 20 - ((19 * winheight(0) + 14) / 29)
+let s:l = 20 - ((19 * winheight(0) + 24) / 49)
 if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
+exe s:l
 normal! zt
-keepjumps 20
+20
 normal! 0
 lcd ~/git/note_personal/contents
 wincmd w
 argglobal
 if bufexists("~/git/note_personal/contents/etc:\ pour.txt") | buffer ~/git/note_personal/contents/etc:\ pour.txt | else | edit ~/git/note_personal/contents/etc:\ pour.txt | endif
-balt ~/git/note_personal/contents/etc:\ guide:\ life.txt
 setlocal autoindent
 setlocal backupcopy=
 setlocal nobinary
@@ -401,7 +413,6 @@ setlocal nolinebreak
 setlocal nolisp
 setlocal lispwords=
 setlocal nolist
-setlocal listchars=
 setlocal makeencoding=
 setlocal makeprg=
 setlocal matchpairs=(:),{:},[:]
@@ -431,7 +442,6 @@ setlocal nospell
 setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
 setlocal spellfile=
 setlocal spelllang=en
-setlocal spelloptions=
 setlocal statusline=
 setlocal suffixesadd=
 setlocal swapfile
@@ -456,25 +466,24 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let &fdl = &fdl
-let s:l = 4 - ((3 * winheight(0) + 14) / 29)
+let s:l = 1 - ((0 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
+exe s:l
 normal! zt
-keepjumps 4
+1
 normal! 0
 lcd ~/git/note_personal/contents
 wincmd w
 3wincmd w
-exe 'vert 1resize ' . ((&columns * 50 + 50) / 100)
-exe '2resize ' . ((&lines * 29 + 30) / 61)
-exe 'vert 2resize ' . ((&columns * 49 + 50) / 100)
-exe '3resize ' . ((&lines * 29 + 30) / 61)
-exe 'vert 3resize ' . ((&columns * 49 + 50) / 100)
+exe 'vert 1resize ' . ((&columns * 42 + 42) / 84)
+exe '2resize ' . ((&lines * 49 + 50) / 100)
+exe 'vert 2resize ' . ((&columns * 41 + 42) / 84)
+exe '3resize ' . ((&lines * 48 + 50) / 100)
+exe 'vert 3resize ' . ((&columns * 41 + 42) / 84)
 tabnext 1
-badd +1 ~/git/note_personal/contents/review:\ 속\ 오와리모노\ 가타리.txt
 badd +1 ~/git/note_personal/contents/etc:\ guide:\ life.txt
-badd +1 ~/git/note_personal/contents/etc:\ pour.txt
+badd +1 ~/git/note_personal/contents/review:\ 속\ 오와리모노\ 가타리.txt
+badd +0 ~/git/note_personal/contents/etc:\ pour.txt
 badd +32 ~/git/note_personal/contents/pour.txt
 badd +1 ~/git/note_personal/contents/role\ model.txt
 badd +6 ~/git/note_personal/contents/list:\ 인상\ 깊은\ 것.txt
@@ -542,10 +551,10 @@ unlet! s:wipebuf
 set winheight=1 winwidth=20 shortmess=filnxtToOS
 set winminheight=1 winminwidth=1
 let s:sx = expand("<sfile>:p:r")."x.vim"
-if filereadable(s:sx)
+if file_readable(s:sx)
   exe "source " . fnameescape(s:sx)
 endif
-let &g:so = s:so_save | let &g:siso = s:siso_save
+let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
