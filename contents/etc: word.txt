@@ -12,6 +12,7 @@ recognize
 allow
 permit
 authorize
+consistent
 
 antonym
 conflict

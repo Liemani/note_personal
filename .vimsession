@@ -2,13 +2,18 @@ let SessionLoad = 1
 if &cp | set nocp | endif
 let s:cpo_save=&cpo
 set cpo&vim
-cnoremap <C-D> <Del>
-cnoremap <C-N> <Down>
 cnoremap <C-P> <Up>
-cnoremap <C-B> <Left>
-cnoremap <C-F> <Right>
+cnoremap <C-N> <Down>
+inoremap <C-D> <Del>
+inoremap <C-E> <End>
+inoremap <C-A> <Home>
+inoremap <C-F> <Right>
+inoremap <C-B> <Left>
+cnoremap <C-D> <Del>
 cnoremap <C-E> <End>
 cnoremap <C-A> <Home>
+cnoremap <C-F> <Right>
+cnoremap <C-B> <Left>
 map! <D-v> *
 vnoremap / : norm i//	
 vnoremap ? : norm 3x
@@ -36,15 +41,18 @@ vmap <D-x> "*d
 vmap <D-c> "*y
 vmap <D-v> "-d"*P
 nmap <D-v> "*P
+inoremap  <Home>
 cnoremap  <Home>
+inoremap  <Left>
 cnoremap  <Left>
+inoremap  <Del>
 cnoremap  <Del>
+inoremap  <End>
 cnoremap  <End>
+inoremap  <Right>
 cnoremap  <Right>
 cnoremap  <Down>
 cnoremap  <Up>
-inoremap fj 
-inoremap jf 
 let &cpo=s:cpo_save
 unlet s:cpo_save
 set autoindent
@@ -105,11 +113,11 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 42 + 42) / 84)
+exe 'vert 1resize ' . ((&columns * 90 + 90) / 180)
 exe '2resize ' . ((&lines * 49 + 50) / 100)
-exe 'vert 2resize ' . ((&columns * 41 + 42) / 84)
+exe 'vert 2resize ' . ((&columns * 89 + 90) / 180)
 exe '3resize ' . ((&lines * 48 + 50) / 100)
-exe 'vert 3resize ' . ((&columns * 41 + 42) / 84)
+exe 'vert 3resize ' . ((&columns * 89 + 90) / 180)
 argglobal
 enew
 setlocal autoindent
@@ -466,20 +474,20 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let s:l = 1 - ((0 * winheight(0) + 24) / 48)
+let s:l = 3 - ((2 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-1
+3
 normal! 0
 lcd ~/git/note_personal/contents
 wincmd w
 3wincmd w
-exe 'vert 1resize ' . ((&columns * 42 + 42) / 84)
+exe 'vert 1resize ' . ((&columns * 90 + 90) / 180)
 exe '2resize ' . ((&lines * 49 + 50) / 100)
-exe 'vert 2resize ' . ((&columns * 41 + 42) / 84)
+exe 'vert 2resize ' . ((&columns * 89 + 90) / 180)
 exe '3resize ' . ((&lines * 48 + 50) / 100)
-exe 'vert 3resize ' . ((&columns * 41 + 42) / 84)
+exe 'vert 3resize ' . ((&columns * 89 + 90) / 180)
 tabnext 1
 badd +1 ~/git/note_personal/contents/etc:\ guide:\ life.txt
 badd +1 ~/git/note_personal/contents/review:\ 속\ 오와리모노\ 가타리.txt
