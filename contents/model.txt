@@ -1,5 +1,12 @@
 model: pour.txt
 
+# object
+2022-01-05
+object {
+	interface
+	implementation
+}
+
 # program
 stable 버전과 unstable 버전
 	- stable 버전은 안정성이 확인된 버전
@@ -12,16 +19,12 @@ property
 구체적인 질서를 정의하는 것이다
 그리고 그것을 적절히 출력하면 된다
 
-
-
 # sleep
 property
 바이오 패턴(그래프)
 몸 상태
 
 억지로 자는 것보다 억지로 안자는게 쉽다
-
-
 
 # 문제 해결
 문제 인식
@@ -31,3 +34,10 @@ property
 수행
 테스트
 분석
+
+# 행동 변화
+2021-05-18
+문제 인지
+문제 재발
+어떤 대체 행동의 성공적 결과
+반복할 수록 점차 대체 행동을 할 확률이 높아짐

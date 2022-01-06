@@ -165,3 +165,45 @@ end
 
 
 # 물리 - 물리적이지 않은 것
+
+
+
+# 모으다
+수합하다: 물질 개념을 거두어 합치다
+취합하다: 여러 개념을 모아 하나의 대표적인 개념을 만들다
+통합하다: 흩어진 여러 개념을 모아 그것들을 포괄하는 하나의 개념으로 만들다
+
+
+
+# 출력
+show
+display
+draw
+list
+print
+describe
+log
+
+
+
+# transformation
+transposition
+transition
+rotation
+reflection
+projection
+affine transformation
+
+
+
+# 생성과 관련된 단어
+generate
+produce
+initiate
+create
+make
+new
+spawn
+cause
+
+consume
