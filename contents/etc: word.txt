@@ -17,8 +17,6 @@ consistent
 antonym
 conflict
 
-
-
 # 정의역 - 치역
 x - y
 정의역 - 치역, 공역
@@ -28,8 +26,6 @@ input - output
 자극 - 반응
 환경 - 행동
 
-
-
 # 생산 - 소비
 작가 - 독자
 전달 - 수용
@@ -37,8 +33,6 @@ input - output
 송신 - 수신
 
 전파자, 지시자
-
-
 
 # 앞 - 뒤
 prefix - suffix
@@ -56,14 +50,10 @@ up - down
 old - new
 first - last
 
-
-
 # 실행 - 취소
 do - undo
 confirm - cancel
 execute, run - exit, quit
-
-
 
 # 제어
 control
@@ -71,20 +61,14 @@ condition
 state
 status
 
-
-
 # 질문 - 대답
 question - answer
 querry - response
 touch - feedback
 
-
-
 # 배열 - 원소
 array, list, vector, iterable, table, set, dictionary - element, item, entry, content
 string - character
-
-
 
 # 읽기 / 쓰기
 read / write
@@ -96,8 +80,6 @@ receive / send
 record / store
 scan / print
 get / put
-
-
 
 # 데이터 관리
 create
@@ -119,8 +101,6 @@ pop
 delete
 destroy
 
-
-
 # 수행하다
 do
 act
@@ -133,23 +113,17 @@ perform
 practice
 execute
 
-
-
 # 작업 관련
 worktree
 workspace
 workbench
 tool
 
-
-
 # 제외, 아니다
 not
 except
 exclude
 complement
-
-
 
 # 달성, 끝내다, 완수하다
 achieve
@@ -162,18 +136,12 @@ goal
 accomplish
 end
 
-
-
 # 물리 - 물리적이지 않은 것
-
-
 
 # 모으다
 수합하다: 물질 개념을 거두어 합치다
 취합하다: 여러 개념을 모아 하나의 대표적인 개념을 만들다
 통합하다: 흩어진 여러 개념을 모아 그것들을 포괄하는 하나의 개념으로 만들다
-
-
 
 # 출력
 show
@@ -184,8 +152,6 @@ print
 describe
 log
 
-
-
 # transformation
 transposition
 transition
@@ -193,8 +159,6 @@ rotation
 reflection
 projection
 affine transformation
-
-
 
 # 생성과 관련된 단어
 generate
@@ -207,3 +171,9 @@ spawn
 cause
 
 consume
+
+# 정렬하다
+order
+reorder
+arrange
+rearrange
