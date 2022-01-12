@@ -177,3 +177,13 @@ order
 reorder
 arrange
 rearrange
+
+# taxonomy
+domain
+kingdom
+phylum
+class
+order
+family
+genus
+species
