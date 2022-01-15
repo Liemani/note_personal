@@ -7,7 +7,7 @@ DIR-806M 17,360
 LG전자 27UL550 399,000
 
 2021-07-19 22,980
-NorthBayou NB H100 모니터암 22,980
+NorthBayou NB H80 모니터암 22,980
 
 2021-07-12 64,000
 Belkin USB-C to HDMI Adapter 64,000
