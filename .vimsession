@@ -2,13 +2,13 @@ let SessionLoad = 1
 if &cp | set nocp | endif
 let s:cpo_save=&cpo
 set cpo&vim
-inoremap <C-B> <Left>
-inoremap <C-F> <Right>
-inoremap <C-A> <Home>
-inoremap <C-E> <End>
-inoremap <C-D> <Del>
-cnoremap <C-N> <Down>
 cnoremap <C-P> <Up>
+cnoremap <C-N> <Down>
+inoremap <C-D> <Del>
+inoremap <C-E> <End>
+inoremap <C-A> <Home>
+inoremap <C-F> <Right>
+inoremap <C-B> <Left>
 cnoremap <C-D> <Del>
 cnoremap <C-E> <End>
 cnoremap <C-A> <Home>
@@ -84,7 +84,7 @@ set ttimeout
 set ttimeoutlen=100
 set wildmenu
 set window=0
-let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-1 siso=-1
+let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
@@ -113,13 +113,12 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe 'vert 1resize ' . ((&columns * 100 + 101) / 202)
-exe '2resize ' . ((&lines * 28 + 29) / 59)
-exe 'vert 2resize ' . ((&columns * 101 + 101) / 202)
-exe '3resize ' . ((&lines * 28 + 29) / 59)
-exe 'vert 3resize ' . ((&columns * 101 + 101) / 202)
+exe 'vert 1resize ' . ((&columns * 89 + 90) / 180)
+exe '2resize ' . ((&lines * 48 + 49) / 98)
+exe 'vert 2resize ' . ((&columns * 90 + 90) / 180)
+exe '3resize ' . ((&lines * 47 + 49) / 98)
+exe 'vert 3resize ' . ((&columns * 90 + 90) / 180)
 argglobal
-balt etc:\ whoami.txt
 setlocal autoindent
 setlocal backupcopy=
 setlocal nobinary
@@ -181,7 +180,6 @@ setlocal nolinebreak
 setlocal nolisp
 setlocal lispwords=
 setlocal nolist
-setlocal listchars=
 setlocal makeencoding=
 setlocal makeprg=
 setlocal matchpairs=(:),{:},[:]
@@ -211,7 +209,6 @@ setlocal nospell
 setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
 setlocal spellfile=
 setlocal spelllang=en
-setlocal spelloptions=
 setlocal statusline=
 setlocal suffixesadd=
 setlocal swapfile
@@ -236,18 +233,16 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let &fdl = &fdl
-let s:l = 30 - ((19 * winheight(0) + 28) / 57)
+let s:l = 31 - ((30 * winheight(0) + 48) / 96)
 if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
+exe s:l
 normal! zt
-keepjumps 30
+31
 normal! 0
 lcd ~/git/note_personal/contents
 wincmd w
 argglobal
 if bufexists("~/git/note_personal/contents/etc:\ whoami.txt") | buffer ~/git/note_personal/contents/etc:\ whoami.txt | else | edit ~/git/note_personal/contents/etc:\ whoami.txt | endif
-balt ~/git/note_personal/contents/etc:\ pour.txt
 setlocal autoindent
 setlocal backupcopy=
 setlocal nobinary
@@ -309,7 +304,6 @@ setlocal nolinebreak
 setlocal nolisp
 setlocal lispwords=
 setlocal nolist
-setlocal listchars=
 setlocal makeencoding=
 setlocal makeprg=
 setlocal matchpairs=(:),{:},[:]
@@ -339,7 +333,6 @@ setlocal nospell
 setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
 setlocal spellfile=
 setlocal spelllang=en
-setlocal spelloptions=
 setlocal statusline=
 setlocal suffixesadd=
 setlocal swapfile
@@ -364,12 +357,11 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let &fdl = &fdl
-let s:l = 2 - ((1 * winheight(0) + 14) / 28)
+let s:l = 2 - ((1 * winheight(0) + 24) / 48)
 if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
+exe s:l
 normal! zt
-keepjumps 2
+2
 normal! 0
 lcd ~/git/note_personal/contents
 wincmd w
@@ -436,7 +428,6 @@ setlocal nolinebreak
 setlocal nolisp
 setlocal lispwords=
 setlocal nolist
-setlocal listchars=
 setlocal makeencoding=
 setlocal makeprg=
 setlocal matchpairs=(:),{:},[:]
@@ -466,7 +457,6 @@ setlocal nospell
 setlocal spellcapcheck=[.?!]\\_[\\])'\"\	\ ]\\+
 setlocal spellfile=
 setlocal spelllang=en
-setlocal spelloptions=
 setlocal statusline=
 setlocal suffixesadd=
 setlocal swapfile
@@ -491,24 +481,24 @@ setlocal nowinfixwidth
 setlocal wrap
 setlocal wrapmargin=0
 silent! normal! zE
-let &fdl = &fdl
-let s:l = 1 - ((0 * winheight(0) + 14) / 28)
+let s:l = 1 - ((0 * winheight(0) + 23) / 47)
 if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
+exe s:l
 normal! zt
-keepjumps 1
+1
 normal! 0
 lcd ~/git/note_personal/contents
 wincmd w
-exe 'vert 1resize ' . ((&columns * 100 + 101) / 202)
-exe '2resize ' . ((&lines * 28 + 29) / 59)
-exe 'vert 2resize ' . ((&columns * 101 + 101) / 202)
-exe '3resize ' . ((&lines * 28 + 29) / 59)
-exe 'vert 3resize ' . ((&columns * 101 + 101) / 202)
+exe 'vert 1resize ' . ((&columns * 89 + 90) / 180)
+exe '2resize ' . ((&lines * 48 + 49) / 98)
+exe 'vert 2resize ' . ((&columns * 90 + 90) / 180)
+exe '3resize ' . ((&lines * 47 + 49) / 98)
+exe 'vert 3resize ' . ((&columns * 90 + 90) / 180)
 tabnext 1
-badd +4 ~/git/note_personal/contents/etc:\ pour.txt
+badd +1 ~/git/note_personal/contents/review:\ product.txt
+badd +0 ~/git/note_personal/contents/review:\ 속\ 오와리모노\ 가타리.txt
 badd +1 ~/git/note_personal/contents/etc:\ whoami.txt
-badd +30 ~/git/note_personal/contents/review:\ product.txt
+badd +4 ~/git/note_personal/contents/etc:\ pour.txt
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0
   silent exe 'bwipe ' . s:wipebuf
 endif
@@ -516,10 +506,10 @@ unlet! s:wipebuf
 set winheight=1 winwidth=20 shortmess=filnxtToOS
 set winminheight=1 winminwidth=1
 let s:sx = expand("<sfile>:p:r")."x.vim"
-if filereadable(s:sx)
+if file_readable(s:sx)
   exe "source " . fnameescape(s:sx)
 endif
-let &g:so = s:so_save | let &g:siso = s:siso_save
+let &so = s:so_save | let &siso = s:siso_save
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
