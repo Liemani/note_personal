@@ -13,8 +13,6 @@ instances 를 분석하여 class 를 만든다.
 모델은 표본을 구분 짓는 기준에 따라 여러 가지가 존재할 수 있다.
 이 때 예측되는 표본에 대한 여러 모델의 가능성을 염두해 두고 그에 따라 적당한 확장성 모듈을 만들어서 필요에 따라 빠르게 특정 표본을 다룰 수 있는 확장된 모델로 전환 가능하도록 설계하는 것은 어떨까?
 
-
-
 # model 심층 분석
 프로그래밍을 하는 것 같이 read / write 를 먼저 파악한다
 
@@ -23,10 +21,15 @@ instances 를 분석하여 class 를 만든다.
 생성: 태양, diode, 네온 싸인, 필라멘트, 번개, 반딧불이, 형광 물질, 연소
 반응: 카메라 필름, 눈, 엽록소, 유리, 물
 
-
-
 # 개념에 따른 어휘
 - https://opentutorials.org/module/3747/22518
 	- POSIX CLI1 - 3
 create / delete: instance
 read / write: property
+
+# 모델링 과정
+2022-01-26
+- 구체적인 자료 수집
+- 공통점을 추려내어 추상화
+- 추상화한 내용을 통해 interface 작성
+- interface를 통해 implementation 작성
