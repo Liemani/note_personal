@@ -1,0 +1,13 @@
+list: bug.txt
+
+# sidecar
+2022-01-27
+- sidecar의 연결 상태가 좋지 않은 경우, 다시 연결이 되어도 화면이 redraw되지 않고 freeze한다.
+- sidecar 연결/해제 버튼이 실제 연결 상황을 제대로 describe하지 못한다.
+	- 연결되어 데이터를 주고 받고 있는 상태에서도 꺼져있는 것으로 describe하는 경우가 있음
+- 화면을 redraw할 때 iPad에서 불필요한 작은 잡음을 출력하는 현상
+
+# icloud sync
+2022-01-27
+- mac에서 tab group을 사용하면 page update 시 제대로 동기화가 이루어지지 않아 이전 page로 되돌아가는 현상
+- iPhone과의 sync가 제대로 이루어지지 않아서 시간을 들여 정리한 즐겨찾기 목록이 이전 버전으로 돌아가는 현상
