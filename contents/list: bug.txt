@@ -1,5 +1,14 @@
 list: bug.txt
 
+# translate
+2022-02-16
+- safari에서 번역하고 싶은 문장을 select해서 번역을 시도했을 때 pop-up만 뜨고 내용은 뜨지 않는 버그
+	- quick note를 띄우고 해당 문장을 복붙하여 select 후 번역을 시도하면 잘 된다.
+- safari tab group
+	- 동기화가 제대로 이루어지지 않아 일일히 창을 꺼서 정리한 tab group이 꺼졌던 창이 다 다시 복원되는 현상
+- keynote
+	- navigation bar가 tool bar 및 tab bar에 뭍혀서 1번 slide가 가려지는 현상
+
 # sidecar
 2022-01-27
 - sidecar의 연결 상태가 좋지 않은 경우, 다시 연결이 되어도 화면이 redraw되지 않고 freeze한다.
