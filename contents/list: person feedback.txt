@@ -1,0 +1,7 @@
+list: person feedback.txt
+
+2022-02-18
+sangjeon feedback
+- 지금까지 감정적인 사람들하고만, 대화를 하면 겉 뜻보다 속 뜻을 이해하려 노력, 하지만 sangjeon님은 대화의 겉 뜻을 그대로 받아들여 주셔서 대화가 잘 통했음
+- 주장이 뚜렷함
+	- 보고서는 excel이 아니라 ppt여야 한다.
