@@ -1,5 +1,13 @@
 etc: word.txt
 
+# variation(변주)
+subspecies(아종)
+spin-off(스핀오프)
+branch(겉가지)
+parallel world(평행 세계)
+mutant(돌연변이)
+non-mainstream faction[group](비주류)
+
 # 따르다
 conform
 accordance

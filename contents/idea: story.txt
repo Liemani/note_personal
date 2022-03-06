@@ -1,5 +1,10 @@
 idea: story.txt
 
+# ai
+2022-02-27
+ai로 전세계의 정세를 시뮬레이션하여
+세계 장악
+
 # 귀신을 쫓는 물건
 2022-02-22
 - https://www.youtube.com/watch?v=SNDpwgPGBss
