@@ -1,5 +1,12 @@
 etc: word.txt
 
+# original
+원작
+원서
+원본
+원곡
+원저
+
 # variation(변주)
 subspecies(아종)
 spin-off(스핀오프)
