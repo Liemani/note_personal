@@ -1,5 +1,26 @@
 etc: pour.txt
 
+2022-03-25
+# iPad mirroring
+macOS Catalina Version 10.15.7
+iPad 15.4
+ipad로 mac의 화면을 mirroring할 때(Sidecar) 잘 연결되지 않는다면 mac의 bluethooth 장비의 연결을 해제한 후 mirroring을 시도해보라.
+그러면 연결이 될 수도 있다.
+아마 mirroring 연결 시작 시에 bluetooth를 사용하는 모양이다.
+그래서 bluetooth 장비를 연결하는 순서가 중요하다.
+만약 연결됐다면 해제한 bluetooth 장비들을 다시 연결해주면 된다.
+# 언어 영감
+func funcName<T>(with tInstance: inout T) -> inout T::Iterator
+where T is Iterable
+(begin tInstance.begin(), end tInstance.end()) {
+	while (begin != end) {
+		do(begin);
+		++begin;
+	}
+	return end;
+}
+별로 좋은 생각은 아닌 것 같다.
+
 2022-03-20
 # 3일
 나는 바닥치기 전략
