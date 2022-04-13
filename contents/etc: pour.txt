@@ -1,5 +1,9 @@
 etc: pour.txt
 
+2022-04-13
+friendly voice
+friendly means for others not familiar to me
+
 2022-04-03
 불편함이 존재해서는 안된다.
 모든 면을 최고로 편안하게 만드는 것이 제품을 창조하고 다듬는 자의 역할이다.
