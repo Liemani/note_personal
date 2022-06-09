@@ -1,5 +1,9 @@
 idea: service.txt
 
+2022-06-09
+내가 만든 예쁜 flow chart를 실제 코드를 해석하여 생성해주는 프로그램
+    switch, while, for statement를 직접 커스텀하는 것이 가능
+
 2022-05-30
 42Seoul RPG
     확장성(누구나 새로운 세계 창조하여 기존 데이터 이전 가능)
