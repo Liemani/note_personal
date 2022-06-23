@@ -88,7 +88,7 @@ let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
 silent tabonly
-cd ~/git/note_personal/contents
+cd ~/git/note_personal
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
@@ -239,10 +239,10 @@ exe s:l
 normal! zt
 31
 normal! 0
-lcd ~/git/note_personal/contents
+lcd ~/git/note_personal
 wincmd w
 argglobal
-if bufexists("~/git/note_personal/contents/etc:\ whoami.txt") | buffer ~/git/note_personal/contents/etc:\ whoami.txt | else | edit ~/git/note_personal/contents/etc:\ whoami.txt | endif
+if bufexists("~/git/note_personal/etc:\ whoami.txt") | buffer ~/git/note_personal/etc:\ whoami.txt | else | edit ~/git/note_personal/etc:\ whoami.txt | endif
 setlocal autoindent
 setlocal backupcopy=
 setlocal nobinary
@@ -363,10 +363,10 @@ exe s:l
 normal! zt
 2
 normal! 0
-lcd ~/git/note_personal/contents
+lcd ~/git/note_personal
 wincmd w
 argglobal
-if bufexists("~/git/note_personal/contents/etc:\ pour.txt") | buffer ~/git/note_personal/contents/etc:\ pour.txt | else | edit ~/git/note_personal/contents/etc:\ pour.txt | endif
+if bufexists("~/git/note_personal/etc:\ pour.txt") | buffer ~/git/note_personal/etc:\ pour.txt | else | edit ~/git/note_personal/etc:\ pour.txt | endif
 setlocal autoindent
 setlocal backupcopy=
 setlocal nobinary
@@ -487,7 +487,7 @@ exe s:l
 normal! zt
 1
 normal! 0
-lcd ~/git/note_personal/contents
+lcd ~/git/note_personal
 wincmd w
 exe 'vert 1resize ' . ((&columns * 89 + 90) / 180)
 exe '2resize ' . ((&lines * 48 + 49) / 98)
@@ -495,10 +495,10 @@ exe 'vert 2resize ' . ((&columns * 90 + 90) / 180)
 exe '3resize ' . ((&lines * 47 + 49) / 98)
 exe 'vert 3resize ' . ((&columns * 90 + 90) / 180)
 tabnext 1
-badd +1 ~/git/note_personal/contents/review:\ product.txt
-badd +0 ~/git/note_personal/contents/review:\ 속\ 오와리모노\ 가타리.txt
-badd +1 ~/git/note_personal/contents/etc:\ whoami.txt
-badd +4 ~/git/note_personal/contents/etc:\ pour.txt
+badd +1 ~/git/note_personal/review:\ product.txt
+badd +0 ~/git/note_personal/review:\ 속\ 오와리모노\ 가타리.txt
+badd +1 ~/git/note_personal/etc:\ whoami.txt
+badd +4 ~/git/note_personal/etc:\ pour.txt
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0
   silent exe 'bwipe ' . s:wipebuf
 endif
