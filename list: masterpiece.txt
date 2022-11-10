@@ -1,5 +1,10 @@
 list: masterpiece.txt
 
+# 1 tier
+
+소설
+해리포터
+
 만화
 타이밍
 
@@ -9,8 +14,28 @@ list: masterpiece.txt
 저 너머의 아스트라
 Steins;Gate
 
-애니영화
+애니 영화
 센과 치히로의 행방불명
 
 영화
 노트북
+
+게임
+언더테일
+braid
+
+음악
+Porter Robinson shelter
+
+# 1.5 tier
+
+게임
+투더문
+
+# 2 tier
+
+영상
+Kaizo Trap
+
+게임
+Portal

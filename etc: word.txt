@@ -1,5 +1,17 @@
 etc: word.txt
 
+robust - concise
+
+sensor
+handler
+controller
+manager
+
+location: 어떤 오브젝트의 위치
+position: 동사(위치시키다)
+point: 점
+coordinate: 좌표
+
 # original
 원작
 원서
@@ -92,9 +104,17 @@ pull / push
 pop / push
 output / input
 receive / send
-record / store
+record / loss
+store / restore
+store / load
 scan / print
 get / put
+save / load
+note / 
+save / open
+sensor
+detector / responder
+request / response
 
 # 데이터 관리
 create
