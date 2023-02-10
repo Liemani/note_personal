@@ -1,0 +1,6 @@
+broadcast.txt
+
+# title log
+
+2023-01-08 ChatGPT로 놀기
+2022-??-?? hafen 클라 개조 48일 WaitManager 개선

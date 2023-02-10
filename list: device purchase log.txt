@@ -1,5 +1,11 @@
 list: device purchase log.txt
 
+2022-10-30 119,000
+Magic Keyboard - 한국어 119,000
+
+2022-07-07 119,000
+Magic Keyboard - 한국어 119,000
+
 2021-10-19 17,360
 DIR-806M 17,360
 
