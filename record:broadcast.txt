@@ -1,5 +1,0 @@
-record:broadcast.txt
-
-1680x1050(1152x720)
-
-1280x720

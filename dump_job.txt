@@ -1,0 +1,8 @@
+etc_job.txt
+
+server
+graphic
+ar
+ai
+embedded
+firmware

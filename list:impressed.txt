@@ -1,6 +1,0 @@
-list:impressed.txt
-
-2022-07-23
-groove coater: effect, 연출
-o2jam: note 배치
-maple story: bgm
