@@ -1,4 +1,4 @@
-etc_pour.txt
+dump_diary.txt
 
 2023-04-28
 아빠는 나를 아랫사람으로 대한다

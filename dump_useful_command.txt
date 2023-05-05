@@ -1,0 +1,10 @@
+dump_useful_command.txt
+
+rm -rf ~/Library/Developer/Xcode/DerivedData/<ProjectName>
+git push
+git commit -m "<Message>"
+git add --all
+git checkout -b <BranchName>
+git checkout <BranchName>
+git branch <BranchName>
+git clone

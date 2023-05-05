@@ -1,4 +1,4 @@
-etc: whoami.txt
+profile.txt
 
 # core value
 - balence: 한 쪽에 치우치는 것은 좋지 않다. 다른 한 쪽의 이점을 잃게 되기 때문이다. 양쪽의 이점을 모두 챙기는게 최고다
@@ -85,5 +85,8 @@ etc: whoami.txt
 - 독서: avl-2.0.2.pdf: ~ 48p
     - https://adtinfo.org
 
-2022/07/29 ~
+2022/07/29 ~ 2022/??/??
 - haven and hearth 클라이언트 개조
+
+~ 2021-02-10
+get next line
