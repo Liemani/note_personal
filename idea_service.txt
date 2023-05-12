@@ -1,5 +1,8 @@
 idea: service.txt
 
+# name certification
+어떤 개념, 문제, 이슈 등에 이름을 붙이고 이를 인증해주는 서비스
+
 # editor
 preprocessor director 에 따라 시각화 할 수도 있고 안할 수도 있다
 가령
