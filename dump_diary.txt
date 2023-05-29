@@ -1,7 +1,6 @@
 dump_diary.txt
 
 2023-05-26
-
 # 조형
 파충류를 만들고 싶다
 일단 살덩이를 불려 나간다
@@ -25,7 +24,6 @@ dump_diary.txt
 declare: naming, concept, prototype
 define: specification, abstract, template, generic, program
 implement: code, compiler, process
-
 
 2023-05-23
 # 한계
