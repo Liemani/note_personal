@@ -1,5 +1,23 @@
 idea: service.txt
 
+# interface implementation structure builder
+importance: +++++
+2023-06-11
+내가 볼 것과 외부에 공개할 것을 구분 짓어 작성하는 작업은 언제나 요구되는 크리티컬한 작업이다
+이를 위한 포멧과 편집기, 뷰어를 만드는 것은 생산성 향상을 위해 매우 중요하다
+
+# game like work environment
+importance: +++++
+2023-06-11
+마인크래프트처럼 어떤 행위가 전부 기록으로 남는 거지
+깃도 내가 몇 개의 라인을 생성하고 수정했는지를 보면 재밌잖아?
+결국 내 행위가 수치적으로 눈에 보이냐가 중요한 것 같다
+
+# auto architecture
+importance: +++++
+2023-06-06
+대충 문장을 적어 넣으면 알아서 구조화해주는 프로그램
+
 # name certification
 어떤 개념, 문제, 이슈 등에 이름을 붙이고 이를 인증해주는 서비스
 

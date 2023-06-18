@@ -1,5 +1,9 @@
 etc_broadcast.txt
 
+#2023-05-31
+ipad 6th generation: 1536 x 2048 -> 768x1024 or 1024x768
+https://www.twitch.tv/popout/liemani/chat?popout=
+
 # title log
 
 2023-01-08 ChatGPT로 놀기
