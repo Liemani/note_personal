@@ -1,5 +1,11 @@
 model: model.txt
 
+# 개념 설명 방법
+배경(문제 인식)(요구 발생)
+의도(가설)(mandatory)
+예시(사고 실험)(사용법)
+구현(실험)(구현)
+
 # 현상을 대변하는 model 만들기
 모델링할 class 의 instance 데이터를 수집한다.
 instances 를 분석하여 class 를 만든다.

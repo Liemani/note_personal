@@ -1,6 +1,10 @@
 list: person feedback.txt
 
+# o
+logic 이 service 에 들어가는게 맞는 것일지
+
 # 만공자 (process178)
+2023-06-30
 자주 찾아와 주시는건 감사한데
 사실을 말하시는건 괜찮지만
 무조건적인 비하는 삼가주세요
