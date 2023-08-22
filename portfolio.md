@@ -11,9 +11,10 @@
 
 상세 구현
 - 오픈 월드
-- 터치 입력
+- 멀티 터치 구현
 - 아이템 스케쥴러
 
+하나의 앱을 만들어 보았습니다.
 객체의 내부 작동과 외부 호출을 분리시키는 연습
 
 
@@ -389,7 +390,7 @@ UTF-8 이 어떻게 생긴 포멧인지를 이해하는 것은 고통스러웠�
 - 목표: 1 ~ 3 대의 드론에 미리 작성된 여러 패턴의 비행 미션 수행 프로그램 작성
 - GitHub: https://github.com/Liemani/_deprecated_portfolio/tree/main/tool/ROS
 - language: C++
-- environment: Visual Studio Code, Git
+- environment: VS Code, Git
 - 팀원: 총 2 명
 
 내가 구현한 부분
@@ -406,7 +407,11 @@ UTF-8 이 어떻게 생긴 포멧인지를 이해하는 것은 고통스러웠�
 
 ## arduino
 
-language: C++
+- 목표: arduino 사용해보기
+- GitHub: https://github.com/Liemani/_deprecated_portfolio/tree/main/tool/Arduino
+- language: C++
+- environment: VS Code, Git
+
 실습 모듈
 - led
 - buzzer
@@ -432,10 +437,10 @@ serial print 로 4x4 의 X 를 계속 출력하다가 주기적으로 O 로 변�
 
 - 목표: 도서관 책 대출 프로그램의 자판기 버전
 - language: C
-- environment: Visual Studio Code, Git
+- environment: VS Code, Git
 
 상세 구현
-- 프롬프트로 돈 액수를 입력받고 선택한 음료에 대한 반응 출력
+- 프롬프트로 금액을 입력받고 선택한 음료에 대한 반응 출력
 - 음수를 입력받으면 관리자 페이지 출력
 - 음료 데이터를 데이터로 저장하여 프로그램이 종료 되어도 값이 보존되도록 구현
 
@@ -445,7 +450,7 @@ serial print 로 4x4 의 X 를 계속 출력하다가 주기적으로 O 로 변�
 2020/02/01 ~ 2020/03/14
 
 - 목표: 빠르게 앱 출시
-- https://play.google.com/store/apps/details?id=com.havenandhearthassistant&pli=1
+- 앱 링크: https://play.google.com/store/apps/details?id=com.havenandhearthassistant&pli=1
 - language: Kotlin
 - environment: Android Studio
 
@@ -454,3 +459,13 @@ serial print 로 4x4 의 X 를 계속 출력하다가 주기적으로 O 로 변�
 - AdMob 달기
 
 앱 출시 뒤 우크라이나에서는 소수점이 우리와 달리 ',' 를 사용하기 때문에 계산에 문제가 있다는 피드백을 받고 업데이트를 하기도 했습니다.
+
+
+
+# 터미널 작업 환경 구축
+2020/12/25 ~ 계속
+
+- 목표: 어떤 터미널 환경에서도 나의 작업 환경을 바로 셋업해주는 shell script 작성
+- GitHub: https://github.com/Liemani/env
+- language: zsh, bash
+- environment: Vim, Git
