@@ -1,5 +1,17 @@
 model: model.txt
 
+# model
+
+주제들  {
+    주제 배열,
+}
+
+주제 {
+    dump,
+    todo,
+    model,
+}
+
 # 개념 설명 방법
 배경(문제 인식)(요구 발생)
 의도(가설)(mandatory)

@@ -1,0 +1,10 @@
+format.txt
+```item format
+<item title> {
+  <example>
+}
+```
+
+<date> {
+  2023-11-23
+}

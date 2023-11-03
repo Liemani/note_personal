@@ -1,5 +1,14 @@
 list: device purchase log.txt
 
+2023-11-19 171,190
+Sandisk Extreme Portable SSD V2 E61 (2TB) 171,190
+
+2023-08-24 119,000
+Magic Keyboard - 한국어 119,000
+
+2023-06-29 119,000
+패트라 에어린 블랙바디 헤드형 책상의자 37690
+
 2022-10-30 119,000
 Magic Keyboard - 한국어 119,000
 

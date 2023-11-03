@@ -1,4 +1,14 @@
-model: pour.txt
+model.txt
+```article format
+# <title>
+<content>
+```
+
+# core value
+core value {
+  inner value : joy, public interest, futur benefit, sustainability
+  outer value : money
+}
 
 # object
 2022-01-05

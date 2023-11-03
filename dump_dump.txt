@@ -4,6 +4,15 @@ yyyy-mm-dd
 content
 ```
 
+2023-11-23
+주식 구매하려고 할 때 0 하나 잘못 쓰면 어떻게 될까?
+지금 가격의 2배로 구입하려고 하면 경고 창이 뜰까?
+
+element
+item
+instruction
+object
+
 2023-09-20
 사고
 심사숙고
