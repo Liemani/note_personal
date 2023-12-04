@@ -1,5 +1,13 @@
 list: bug.txt
 
+2023-12-11
+애플 제품에 버그가 점점 늘어가는 것 같다
+- M1 air default : usb port가 먹통이 되어 재부팅을 해야만 해결되는 증상
+- safari : 가끔 탭을 닫으면 보고 있지 않던 다른 탭까지 같이 닫히는 증상
+- <C-F2>로 상단 바가 보여야 하는데, 이 기능이 작동하지 않음
+- mindustry 게임을 fullscreen으로 하고 screen lock 시, password가 입력되지 않는 증상
+- 버그는 아니지만 .DS_Store도 열받는다, 매번 지워주는데 시간 소모가 큰 편이다
+
 # translate
 2022-02-16
 - safari에서 번역하고 싶은 문장을 select해서 번역을 시도했을 때 pop-up만 뜨고 내용은 뜨지 않는 버그

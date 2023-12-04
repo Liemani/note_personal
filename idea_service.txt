@@ -5,10 +5,21 @@ idea: service.txt
 <content>
 ```
 
+# config
+2023-12-04
+다양한 설정이 가능하지만 기본 설정은 자주 바뀐다
+
 # dump
 2023-11-23
 역사 뷰어
 팀 에디터
+2023-12-02
+broker
+- 타 서비스의 de facto 커스텀 protocol 을 정의하고 공급하는 웹 서비스
+  - 가령 당근은 태그 검색이 없어 맥북 램 16g 를 검색하기 힘들다
+  - 이 검색을 가능하도록 title 및 content 를 사용한 protocol 을 정의한다
+  - 이 기능은 정보의 회전률이 빠른 경우 backward-compatibility 를 포기할 수 있다는 장점이 있다
+  - protocol 을 바꿀 경우 계도 기간을 정해야 한다
 
 # a003_world
 2023-11-23
