@@ -1,5 +1,9 @@
 idea: product.txt
 
+# device sandbox
+2023-12-29
+device 의 각종 input, output 을 모듈화하여 테스트 해볼 수 있는 샌드박스
+
 # DS_Store가 생기지 않는 mac 파일 탐색기
 2023-12-26
 3차원 파일 탐색기
