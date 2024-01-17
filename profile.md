@@ -33,16 +33,26 @@
 
 - 밑에 내용이 더 오래됨
 
+
+
+### 2024
+
+
+
 ### 2023
 
-#### 인턴
+#### 바인드소프트 인턴
 
-- 2023/08/?? ~ 2023/09/19 ~ 
+- 2023/08/29 ~ 2024/01/17 ~
+- mobius 를 활용한 IoT 환경 구축 연구
+- 교육자료 작성
 
-#### Tiny Home 앱 개발
+#### Tiny Home 게임 앱 개발
 
 - 2023/05/03 ~ 2023/07/23
 - https://github.com/Liemani/a-month-game
+- os : iOS
+- 미출시
 
 #### 독서: Computer Systems: A Programmers Perspective 3rd Global Edition
 
