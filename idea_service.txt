@@ -5,6 +5,15 @@ idea: service.txt
 <content>
 ```
 
+2024-02-14
+haven and hearth assistant를 generic하게 만든 프로그램
+- 계산식 편집 가능
+- 계산식 데이터를 텍스트 문서로 입출력 가능
+
+2024-02-05
+목적관을 작성하고 공유하는 서비스
+가령 HTML -> 속성을 angle brackets로 묶어서 표현한다
+
 2024-01-25
 문제 해결 공유 서비스
 다양 한 문제를 classify 하고
