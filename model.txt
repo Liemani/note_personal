@@ -4,6 +4,16 @@ model.txt
 <content>
 ```
 
+# file format
+<file name>
+<article format>
+<articles>
+
+## article format
+```article format
+<format>
+```
+
 # story {
   수미상관 : 시작과 끝에 같은 요소를 두어야 한다(큰그림 복선)
   시작은 흰색으로 시작해서 끝은 검은색이어야 한다
