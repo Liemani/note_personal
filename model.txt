@@ -9,10 +9,17 @@ model.txt
 <article format>
 <articles>
 
-## article format
+# article format
 ```article format
 <format>
 ```
+
+아두이노 {
+  구현 {
+    하드웨어
+    소프트웨어
+  }
+}
 
 # story {
   수미상관 : 시작과 끝에 같은 요소를 두어야 한다(큰그림 복선)
