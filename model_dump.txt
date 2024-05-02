@@ -1,18 +1,4 @@
-model.txt
-```article format
-# <title>
-<content>
-```
-
-# file format
-<file name>
-<article format>
-<articles>
-
-# article format
-```article format
-<format>
-```
+model_dump.txt
 
 아두이노 {
   구현 {

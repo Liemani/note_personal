@@ -1,0 +1,27 @@
+model_bootstrap.txt
+구체적인 파일 모델화에 대한 이야기
+formatting == modeling
+
+format bootstrap definition {
+
+`\(identifier)` is replaced to `identifier` or can be omitted.
+`\(identifiers)` means one or more `identifier` would appear.
+
+}
+
+subject format bootstrap definition {
+
+\(subject name) {
+  \(content)
+}
+
+}
+
+file format {
+
+\(file name)
+\(short description)
+\(article format definition)
+\(articles)
+
+}
