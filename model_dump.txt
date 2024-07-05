@@ -1,7 +1,115 @@
 model_dump.txt
 우선 여기에서 새로운 모델을 키워나가고, 필요에 따라 파일로 내용을 분리한다.
 
+Jetson family {
+
+Jetson Nano {
+}
+
+Jetson Xavier {
+}
+
+}
+
+post {
+  post office {
+    보내는 분 :
+      성명 :
+      전화 :
+      주소
+      우편 번호 :
+    받는 분 :
+      성명 :
+      전화 :
+      주소 :
+      우편 번호 :
+  }
+}
+
+word {
+  amount {
+    remaining : amount of ~ left
+  }
+}
+
+magic search keyword {
+keyword :
+  working mechanism
+  connection graph :
+    description :
+      네트워크 등 연결 graph를 검색
+    example :
+      zigbee bridge connection graph
+  network architecture
+}
+
+stock_history {
+crisis :
+  1929 ~ 1930.%  : -88.88%(Great Depression)
+  1929.10 : 해트리(Hatry) 그룹의 파산이 법원에서 공식적으로 승인
+  1929.10.24 : 검은 목요일 미국 월스트리트의 주가가 급작스럽게 폭락(the Wall Street Crash)
+  1929.10.29 : 검은 화요일 미국 월스트리트의 주가가 급작스럽게 폭락(the Wall Street Crash)
+  1999.12 ~ 2002.05 : -66.66% (dotcom bubble)
+  2007 서브프라임 모기지 사태(Subprime Mortgage Crisis)
+  2008.9.14 리먼 브라더스 파산
+  2020 ~ 2023 : 대봉쇄(Great Lockdown)
+global mega trend :
+  internet
+  search engine
+  smart phone
+  bitcoin
+  metaverse(cobid19)
+  ai
+    data center
+    robot
+    energy shortage
+      energy transition
+    electric car
+    semiconductor
+    foundry
+  war
+
+global trend :
+  quantum omputer
+  superconductor
+  rapid urbanization
+  satellite
+  drone
+  5g
+  big data
+  artificial meat
+  hydrogen fuel
+  nanotechnology
+  food
+  climate change
+  popular
+  water
+  globalisation
+  smart urban
+  sustainability
+  demographic change
+}
+
+stock trait {
+mark :
+  + : positive
+  - : negative
+  * : propotional
+  / : inversely propotional
+
+global trend :
+  * market liquidity
+  + new technology
+  / interest
+  - war
+
+indivisual :
+  + monopoly
+}
+
 display glasses {
+another name :
+  vr
 product :
   apple vision pro(3,660 × 3,200)
   pico4(2160 × 2160)

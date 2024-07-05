@@ -11,7 +11,7 @@
 - framework: SpriteKit, CoreData
 
 상세 구현
-- 오픈 월드
+- 생성형 오픈 월드
 - 멀티 터치 구현
 - 아이템 스케쥴러
 

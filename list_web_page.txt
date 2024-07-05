@@ -1,0 +1,7 @@
+list_web_page.txt
+유용한 웹 페이지 링크
+
+arduino serial output :
+  https://forum.arduino.cc/t/serial-input-basics-updated/382007
+매우 구체적인 vision pro 리뷰 :
+  https://m.blog.naver.com/PostView.naver?blogId=vr_insight&logNo=223364666652&categoryNo=6&proxyReferer=&noTrackingCode=true

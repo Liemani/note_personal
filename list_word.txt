@@ -1,5 +1,9 @@
 etc: word.txt
 
+new/delete
+allocate/deallocate
+initialize/deinitialize
+
 robust - concise
 
 sensor
