@@ -50,9 +50,9 @@ Magic Keyboard with Numeric Keypad 149,000
 
 [2020-12-24] 1,365,000
 13형 MacBook Air - 스페이스 그레이 256GB 1,290,000
-	USB-C-Lightning 케이블(1m) 25,000
-	USB-C-USB 어댑터 25,000
-	Lightning-USB 케이블(1m) 25,000
+USB-C-Lightning 케이블(1m) 25,000
+USB-C-USB 어댑터 25,000
+Lightning-USB 케이블(1m) 25,000
 
 [2018-11-20] 549,000
 iPhone 6S 32GB 실버
