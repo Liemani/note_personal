@@ -1,10 +1,26 @@
 diary_stock.txt
-```article format
-[<yyyy-mm-dd>]
-<content>
-```
+format : https://github.com/Liemani/note_personal/blob/main/document_format_bootstrap.txt
+주식 관련된 주저리
 
-[2024-03-21]
+article {
+
+date
+content
+
+}
+
+2024-07-17
+ai
+nvidia
+energy utility
+apple
+tesla
+pltr
+intel
+bitx
+iwm
+
+2024-03-21
 12월 산타 랠리
 3월 좀 빠지고
 대선이라 계속 오를 것 같다

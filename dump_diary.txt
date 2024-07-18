@@ -1,10 +1,20 @@
 dump_diary.txt
-내가 경험한 각종 생각들과 논리들의 집합
+format : https://github.com/Liemani/note_personal/blob/main/document_format_bootstrap.txt
+나의 경험, 생각, 논리들의 집합
 
 article {
-\(date)
-\(contents)
+
+date
+contents
+
 }
+
+2024-07-18
+jetson 을 사용할 때는 gui 환경에서 사용해야 더 높은 성능을 발휘한다.
+gui 없이 ssh 로 사용할 경우 cpu 가 절전 모드로 동작하는 것 같다.
+raspberry pi 도 마찬가지인지는 모르겠다.
+확인해보면 좋을 것 같다.
+ubuntu 의 특징일 수도 있고, 보드의 특징일 수도 있다.
 
 2024-07-09
 말을 잘 안하다보니 핑퐁보다는 통보식 대화(정보 전달)를 많이 하게 된 것 같다.
