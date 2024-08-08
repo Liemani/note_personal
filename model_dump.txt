@@ -1,13 +1,71 @@
 model_dump.txt
+format : https://github.com/Liemani/note_personal/blob/main/document_format_bootstrap.txt
 우선 여기에서 새로운 모델을 키워나가고, 필요에 따라 파일로 내용을 분리한다.
 
+eMMC (Embedded multi media card) {
+}
+
+ROM {
+  ROM (Read-only memory)
+  PROM (Programmable read-only memory)
+  EPROM (Erasable programmable Read-only memory)
+  EEPROM (Electrically erasable programmable read-Only memory)
+}
+
+SSD {
+SATA M.2 SSD
+NVMe M.2 SSD
+}
+
+UEFI vs BIOS: What's the Difference? {
+link : https://www.freecodecamp.org/news/uefi-vs-bios/
+
+UEFI {
+acronym : Unified extensible firmware interface
+}
+
+BIOS {
+acronym : Basic input/output system
+}
+
+boot {
+firmware chip.firmware
+firmware.POST (Power On Self Test) :
+  initilizes remaining hardware
+  detects connected peripherals
+  checks if all connected devices are healthy
+firmware.cycles(all storage devices) : looks for a boot-loader (usually located in first sector)
+boot-loader.load rest of operating system
+  boot-loader.load kernel into memory
+  kernel.init (master process, other processes are forked/executed)
+  kernel.initialize run-levels
+
+kernel do init process initialize the run-levels
+operating system
+}
+
+boot-loader {
+feature :
+  only available in the first sector of a disk(512bytes)
+  (option) multi-stage loading : main boot-loader loads the second-stage-boot-loader (not restricted to 512 bytes)
+example : GRUB
+
+}
+
+}
+
+multitester {
+관련 용어 : 리드선, 계측기기, 전압, 전류, 저항, 측정, 아날로그 멀티미터, 디지털 멀티미터, 단자
+}
+
+Electrical impedance {
+}
+
 Jetson family {
-
-Jetson Nano {
-}
-
-Jetson Xavier {
-}
+version :
+  Jetson Nano
+  Jetson Xavier NX
+  Jetson Orin Nano
 
 }
 

@@ -11,7 +11,7 @@ contents
 
 2024-07-18
 jetson 을 사용할 때는 gui 환경에서 사용해야 더 높은 성능을 발휘한다.
-gui 없이 ssh 로 사용할 경우 cpu 가 절전 모드로 동작하는 것 같다.
+gui 없이 ssh 로 사용할 경우 cpu 가 절전 모드로 동작하는 것 같다.(power saving mode)
 raspberry pi 도 마찬가지인지는 모르겠다.
 확인해보면 좋을 것 같다.
 ubuntu 의 특징일 수도 있고, 보드의 특징일 수도 있다.
