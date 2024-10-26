@@ -1,5 +1,7 @@
 etc: word.txt
 
+walkthrough
+
 new/delete
 allocate/deallocate
 initialize/deinitialize

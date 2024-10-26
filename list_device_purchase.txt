@@ -2,6 +2,16 @@ list_device_purchase.txt
 format : https://github.com/Liemani/note_personal/blob/main/document_format_bootstrap.txt
 전자 제품 구매 기록
 
+item {
+
+구매 날짜
+detail
+
+}
+
+2024-09-21 769,000
+AirPods Max - 스타라이트 769,000
+
 2024-07-14
 NorthBayou NB H80 모니터암 20,460
 
@@ -19,7 +29,7 @@ Magic Keyboard - 한국어 119,000
 Magic Mouse - 화이트 Multi-Touch 표면 89,000
 
 2024-01-04 600,000
-Mac mini 64g used 600,000
+Mac mini(2018) 64g 600,000
 
 2023-11-19 171,190
 Sandisk Extreme Portable SSD V2 E61 (2TB) 171,190

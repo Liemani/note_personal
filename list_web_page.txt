@@ -1,6 +1,16 @@
 list_web_page.txt
-유용한 웹 페이지 링크
+format : https://github.com/Liemani/note_personal/blob/main/document_format_bootstrap.txt
+유용한 웹 페이지 링크 리스트
+sort date
 
+2300: 6502 CPU 소개
+  https://www.youtube.com/watch?v=dFe0JR74EI8
+본격 임베디드 SW 개발 시작! 전기전자과 학부, 초보 개발자 때 이렇게만 했어도...【RC카 개발4】
+  https://www.youtube.com/watch?v=__Gs2O_lJIk&t=529s
+  체계적인 개발 프로젝트 설계 과정을 보여줌
+On pinning and isolating CPU cores : https://manuel.bernhardt.io/posts/2023-11-16-core-pinning/#:~:text=CPU%20core%20isolation%20ensures%20that,to%20all%20processes%20actively%20executing.
+  high quality cpu article
+https://www.kernel.org/doc/Documentation/spi/spidev
 arduino serial output :
   https://forum.arduino.cc/t/serial-input-basics-updated/382007
 매우 구체적인 vision pro 리뷰 :

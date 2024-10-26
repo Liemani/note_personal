@@ -1,11 +1,49 @@
 idea_service.txt
 
-article format {
+article format
+{
 
-# title
+title
+{
 date
 content
+}
 
+}
+
+image striper
+{
+2024-10-17 Thu
+이미지 상하좌우 여백 제거
+1. 이미지를 bmp fotmat으로 변환
+2. 여백 제거
+3. user가 선택한 format으로 이미지 저장
+}
+
+project manager
+{
+2024-10-17 Thu
+jira의 project manager를 local로 구현
+}
+
+window position manager {
+2024-08-16
+window에는 2가지 타입이 있다
+- 고정 : window 위치가 고정되어 다른 window에 밀리지 않는다
+- 이동 : window 위치가 동적이며, 다른 window에 의해 밀린다
+window::window(type = 이동);
+window::set(type);
+usage :
+  중요한 window는 자주 확인할 수 있는 공간에 고정하여 사용한다
+  마구 생성된 window는 가운데에 생성된 후, 새로운 window가 생성됨이 따라 밀려, 사이드로 이동한다
+}
+
+ppt maker {
+2024-08-13
+대본을 입력하면 ai를 통해 ppt가 출력된다.
+이 때, 추가적으로 결과 ppt의 품질을 향상시키기 위해 사용자에게 일련의 질문을 한다.
+이 질문은 ai가 사용하기 쉽도록 ox 질문을 한다.
+혹은 경우에 따라 slider 질문을 할 수도 있다.
 }
 
 # todo manager

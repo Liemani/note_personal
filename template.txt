@@ -11,6 +11,7 @@ name
 
 }
 
+start:
 another subject format definition {
 comment :
   you can use this definition as comment list
