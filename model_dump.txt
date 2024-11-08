@@ -19,6 +19,11 @@ document category {
 }
 
 start :
+PowerPoint 2016
+{
+  파일 > 옵션 > 언어 교정 > 자동 고침 옵션
+}
+
 thread {
   new
 
