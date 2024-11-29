@@ -1,4 +1,17 @@
-etc: word.txt
+list_word.txt
+
+conversion 변환
+sequence 시퀀스
+scan 스캔
+channel 채널
+prescaler 프리스케일러
+set 설정
+clock 클럭
+register 레지스터
+resolution 해상도
+bit 비트
+flag 플래그
+enable 활성화
 
 walkthrough
 

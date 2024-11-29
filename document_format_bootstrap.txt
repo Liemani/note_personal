@@ -1,4 +1,3 @@
-document_format_bootstrap.txt
 template : https://github.com/Liemani/note_personal/blob/main/template.txt
 구체적인 파일 작성 형식의 bootstrap
 이 파일은 interface 를 정의합니다.

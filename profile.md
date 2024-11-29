@@ -17,10 +17,10 @@
 
 |기술명|기술 사용 수준|라이브러리 사용 수준|
 |:-:|:-:|:-:|
-|Shell script|중급|X|
 |Vim         |중급|초급|
-|Assembly_x86|초급-|X|
-|Assembly_arm|초급-|X|
+|Assembly_x86|Read Only|X|
+|Assembly_arm|Read Only|X|
+|Shell script|중급|X|
 |C           |중급|초급|
 |C++         |초급|초급|
 |Objective-C |초급|초급|

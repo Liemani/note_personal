@@ -19,6 +19,12 @@ document category {
 }
 
 start :
+data flow
+{
+  dump -> archive
+       -> todo
+}
+
 PowerPoint 2016
 {
   파일 > 옵션 > 언어 교정 > 자동 고침 옵션
