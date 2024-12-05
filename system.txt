@@ -1,9 +1,24 @@
-idea_game_system.txt
+format : https://github.com/Liemani/note_personal/blob/main/document_format_bootstrap.txt
 
-article format
+system
 {
-date
-content
+  title
+  {
+    content
+  }
+}
+
+list
+{
+}
+
+start :
+기존에 세워진 질서에 신규 유입이 용이한 모델
+{
+  가령
+  - 네트워크 프로토콜
+  - 게임 플레이어
+  - 사회에 진입하는 사회 초년층
 }
 
 2024-11-21 Thu

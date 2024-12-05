@@ -1,5 +1,20 @@
 list_word.txt
 
+보조를 뜯하는 단어
+{
+  assistant
+  helper
+  supporter
+  collaborator
+  manager
+
+  support
+  assistance
+  backup
+  auxiliary
+  helper
+}
+
 conversion 변환
 sequence 시퀀스
 scan 스캔
