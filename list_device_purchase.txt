@@ -23,6 +23,9 @@ apple pencil (1st generation) 119,000
 iPhone 6S 32GB 실버
 iPhone 6S 실리콘 케이스 - 블랙
 
+20xx-xx-xx
+SONY SL-BG Series (256GB)
+
 2020-12-24 1,365,000
 13형 MacBook Air - 스페이스 그레이 256GB 1,290,000
 USB-C-Lightning 케이블(1m) 25,000
@@ -80,7 +83,7 @@ iPhone SE 실리콘 케이스 - 미드나이트 49,000
 USB-C Digital AV Multiport 어댑터 79,000
 
 2024-07-11
-크로스오버 27USD35 239,000
+crossover 27USD35 239,000
 
 2024-07-14
 NorthBayou NB H80 모니터암 20,460

@@ -1,5 +1,9 @@
 list: music.txt
 
+# 다운받을 노래
+butter-fly デジモンアドベンチャーOP
+ClariS - connect
+
 # 부르기 좋은 노래
 네모의 꿈
 키네틱플로우 몽환의 숲

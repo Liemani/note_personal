@@ -286,7 +286,7 @@ usleep 분석 표: https://docs.google.com/spreadsheets/d/1foXWyx1iNWta76hwp5Q2U
 
 2021/06/13 ~ 2021/06/21
 
-- 목표: 한 컴퓨터 내에서 SIGUSR1, SIGUSR2 signal 을 이용하여 packet 을 주고 받는 서버, 클라이언트 프로그램을 만드는 42 프로젝트
+- 목표: 한 컴퓨터 내에서 SIGUSR1, SIGUSR2 signal 을 이용하여 한 컴퓨터 내에서 통신하는 서버, 클라이언트 프로그램을 만드는 42 프로젝트
 - language: C
 - environment: Vim, Git
 
