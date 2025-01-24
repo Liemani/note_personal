@@ -50,9 +50,9 @@ contents
 
 date {
 example :
-  2024-07-05
+  2025-01-22 Wed
 
-yyyy-mm-dd
+yyyy-mm-dd DDD
 
 }
 
