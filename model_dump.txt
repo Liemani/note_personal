@@ -42,20 +42,6 @@ thread {
   terminated
 }
 
-raspberry_pi {
-
-4 Model B {
-  cpu frequency : 0.6 GHz ~ 1.8 GHz
-  logical spi max frequency : 125MHz
-  effective spi frequency : 7.5 KHz ~ 33 MHz
-}
-
-arduino uno {
-  clock speed : 16MHz
-}
-
-}
-
 read_expectation {
 글을 읽을 때 글이 해당 주제의 어느 위치에 존재하는가?
 머리인가, 배인가, 다리인가
@@ -69,41 +55,6 @@ read_expectation {
 다리 : 특별한 사용
 
 더 적절한 단어를 탐색할 것
-}
-
-owned product specification {
-
-Mac mini(2018) {
-  specification link : https://support.apple.com/en-us/111912
-  purchase price : 600,000
-  purchase date : 2024-01-04
-  generation : 8th
-  Processor :
-    3.2GHz 6-core Intel Core i7
-    Turbo Boost up to 4.6GHz
-    12MB shared L3 cache
-    intel core i7-8700B
-  Memory : 64GB of 2666MHz DDR4 SO-DIMM memory
-  Storage : 256GB PCIe-based SSD
-  Graphics : Intel UHD Graphics 630
-  Size :
-    Height : 3.6 cm
-    Width : 19.7 cm
-    Depth : 19.7 cm
-  Weight : 1.3 kg
-}
-
-template {
-  specification link :
-  purchase price :
-  purchase date :
-  Size :
-    Height :
-    Width :
-    Depth :
-  Weight :
-}
-
 }
 
 system account {

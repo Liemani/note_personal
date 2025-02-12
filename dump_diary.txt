@@ -10,7 +10,7 @@ contents
 
 }
 
-useful word
+useful words
 {
   즉 similar but intend
   예 example
