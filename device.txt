@@ -1,8 +1,12 @@
 template :
-class id
+class_id
 {
+  vendor :
   model :
   specification link :
+  chip :
+  memory :
+  storage :
   size :
     height :
     width :
@@ -10,11 +14,13 @@ class id
   weight :
 }
 
-instance id
+instance_id
 {
   model :
-  date purchased :
-  price purchased :
+  purchase date :
+  date received :
+  purchase cost :
+  option :
 }
 
 class :
@@ -50,7 +56,8 @@ raspberry_pi
 
 mac_mini_2018
 {
-  model : Mac mini(2018)
+  vendor : Apple
+  model : Mac mini (2018)
   specification link : https://support.apple.com/en-us/111912
   generation : 8th
   processor :
@@ -68,10 +75,67 @@ mac_mini_2018
   weight : 1.3 kg
 }
 
-instance :
-LiMini24-01
+mac_mini_2024
 {
-  model : Mac mini(2018)
-  date purchased : 2024-01-04
-  price purchased : 600,000
+  vendor : Apple
+  model : Mac mini (2024) Apple M4 chip
+  specification link : https://support.apple.com/en-us/121555
+  chip :
+    10-core CPU with 4 performance cores and 6 efficiency cores
+    10-core GPU
+    Hardware-accelerated ray tracing
+    16-core Neural Engine
+    120GB/s memory bandwidth
+    Media Engine
+    Hardware-accelerated H.264, HEVC, ProRes, and ProRes RAW
+    Video decode engine
+    Video encode engine
+    ProRes encode and decode engine
+    AV1 decode
+  memory : 16GB unified memory
+  storage : 256GB SSD
+  size :
+    height: 5.0 cm
+    width: 12.7 cm
+    depth: 12.7 cm
+  weight : 0.67 kg
+}
+
+ssd
+{
+  vendor : Sandisk
+  model : Sandisk Extreme Portable SSD V2 E61
+}
+
+instance :
+LiMini2401
+{
+  model : Mac mini (2018)
+  purchase date : 2024-01-04
+  purchase cost : 600,000
+}
+
+LiMini2411
+{
+  model : Mac mini (2024) Apple M4 chip
+  purchase date : 2024-11-22 Fri
+  date received : 2024-11-27 Wed
+  purchase cost : 1,490,000
+  option :
+    memory : 24GB
+    storage : 512GB
+}
+
+com
+{
+  model : Sandisk Extreme Portable SSD V2 E61
+  size : 2TB
+  format : exFAT
+}
+
+mac
+{
+  model : Sandisk Extreme Portable SSD V2 E61
+  size : 2TB
+  format : APFS
 }

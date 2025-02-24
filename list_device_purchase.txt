@@ -1,9 +1,17 @@
 format : https://github.com/Liemani/note_personal/blob/main/document_format_bootstrap.txt
 전자 제품 구매 기록
 
-item {
+item
+{
 date
 item
+}
+
+attribute
+{
+release date
+purchase date
+receive date
 }
 
 2011-??-?? ??
@@ -93,7 +101,7 @@ AirPods Max - 스타라이트 769,000
 
 2024-11-22 Fri
 Mac mini M4_2024 24/512 1,490,000
-  date received : 2024-11-27 Wed
+  receive date : 2024-11-27 Wed
 
 2024-12-01 Sun
 Sandisk Extreme Portable SSD V2 E61 (2TB) 201,000

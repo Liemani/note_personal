@@ -65,6 +65,8 @@
 
 ## haven and hearth 클라이언트 개조
 
+![liefeni.png](/image/liefeni.png)
+
 2022/07/29 ~ 2022/09/23
 
 - 목표: 매크로 기능 구현하기
@@ -506,6 +508,8 @@ serial print 로 4x4 의 X 를 계속 출력하다가 주기적으로 O 로 변�
 
 
 ## Haven and Hearth Assistant 앱 출시
+
+![haven_and_hearth.png](/image/haven_and_hearth.png)
 
 2020/02/01 ~ 2020/03/14
 
