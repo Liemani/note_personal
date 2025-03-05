@@ -7,12 +7,16 @@ https://github.com/IntelRealSense/librealsense.git
 https://github.com/IoTKETI/nCube-Thyme-Arduino.git
 https://github.com/IoTKETI/oneM2M-API-Testing.git
 
-supplier :
+service_supplier :
 https://jlcpcb.com
 
-data :
+resource_supplier :
 https://www.vecteezy.com
   image
+
+learn :
+https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
+https://opensource.apple.com
 
 simulation :
 https://www.falstad.com/circuit/

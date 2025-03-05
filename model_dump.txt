@@ -150,21 +150,6 @@ version :
 
 }
 
-post {
-  post office {
-    보내는 분 :
-      성명 :
-      전화 :
-      주소
-      우편 번호 :
-    받는 분 :
-      성명 :
-      전화 :
-      주소 :
-      우편 번호 :
-  }
-}
-
 word {
   amount {
     remaining : amount of ~ left
@@ -257,20 +242,6 @@ product :
   xreal air 2(1920 x 1080)
   tcl nxtwear S+(1920 x 1080)
   viture xr(1920 x 1080)
-}
-
-애플 디벨로퍼 아카데미 {
-애플 경험
-  The Programming Language Swift
-  Develope with swift
-  간단한 샌드박스 게임 경험 제작 경험 유
-만들었던 앱 누수
-  세밀한 부분 알고 싶다
-메탈 알고 싶다
-비전 프로 앱 관심 있다
-애플 디벨로퍼 아카데미는 나에게 좋은 기회
-팀 활동 하고 싶다
-7일 10시간 3달 지속 가능
 }
 
 과학 {
@@ -437,11 +408,6 @@ reference :
     하드웨어
     소프트웨어
   }
-}
-
-# story {
-  수미상관 : 시작과 끝에 같은 요소를 두어야 한다(큰그림 복선)
-  시작은 흰색으로 시작해서 끝은 검은색이어야 한다
 }
 
 # core value
