@@ -52,6 +52,8 @@
 - language: Swift
 - environment: Xcode, Git, Vim, Numbers, Gimp
 - framework: SpriteKit, CoreData
+- team size : 1 명
+- total code line : 5036
 
 상세 구현
 - 생성형 오픈 월드
@@ -73,6 +75,8 @@
 - GitHub: https://github.com/Liemani/liefeni
 - language: Java
 - environment: Vim, Git
+- team size : 1 명
+- total code line : 5094
 
 상세 구현
 - 커맨드 라인으로 명령을 입력받아서 설명을 출력하거나 매크로를 실행하는 기능
@@ -104,7 +108,8 @@
 - 목표: 기초적인 기본 함수들로 HTTP protocol 을 준수하는 web server 를 만드는 42 프로젝트
 - language: C++98
 - environment: Vim, Git, atlassian jira
-- 팀원: 총 3 명
+- team size : 총 3 명
+- total code line : 3583
 
 참조 문서
 - RFC7230 등
@@ -137,6 +142,8 @@
 - 목표: 비동기 시뮬레이션 프로그램을 만들어보는 42 프로젝트
 - language: C
 - environment: Vim, Git
+- team size : 1 명
+- total code line : 1316
 
 상세 구현
 - 특정 인원의 철학자가 한 원형 테이블에 모여 있고, 각 철학자 사이에 포크가 있는 상황을 시뮬레이션
@@ -309,7 +316,9 @@ usleep 분석 표: https://docs.google.com/spreadsheets/d/1foXWyx1iNWta76hwp5Q2U
 - 목표: 경량 버전의 shell 프로그램을 만들어보는 42 프로젝트
 - language: C
 - environment: Vim, Git
-- 팀원: 총 2 명
+- team size : 총 2 명
+- total code line : 3971
+- 내가 작성한 코드 라인 : 2265
 
 내가 구현한 부분
 - 기초 파싱된 데이터를 더욱 가공하여 '()', '&&', '||' 를 파싱한 데이터 생성
@@ -334,6 +343,8 @@ usleep 분석 표: https://docs.google.com/spreadsheets/d/1foXWyx1iNWta76hwp5Q2U
 - 목표: 한 컴퓨터 내에서 SIGUSR1, SIGUSR2 signal 을 이용하여 한 컴퓨터 내에서 통신하는 서버, 클라이언트 프로그램을 만드는 42 프로젝트
 - language: C
 - environment: Vim, Git
+- team size : 1 명
+- total code line : 722
 
 상세 구현
 - SYN, ACK 구현
@@ -358,6 +369,8 @@ UTF-8 이 어떻게 생긴 포멧인지를 이해하는 것은 고통스러웠�
 - 목표: 배열을 정렬하는 일을 하는 어떤 머신의 instruction 이 있습니다 . 이 때, 이 머신이 배열을 정렬하기 위한 최적화된 프로그램을 생성하는 42 프로젝트
 - language: C
 - environment: Vim, Git
+- team size : 1 명
+- total code line : 2059
 
 마치 컴파일러가 소스 코드를 읽고 최적화된 바이너리 코드를 생성하는 기능을 구현하는 것 같은 최적화 문제입니다.
 입력된 배열의 길이가 짧은 경우에는 깊이 우선 탐색으로 모든 경우의 수 중 가장 짧은 프로그램을 얻도록 했습니다.
@@ -374,6 +387,8 @@ UTF-8 이 어떻게 생긴 포멧인지를 이해하는 것은 고통스러웠�
 - 목표: 점을 찍는 기초적인 instruction 으로 3D 그래픽을 구현하는 프로젝트
 - language: C
 - environment: Vim, Git
+- team size : 1 명
+- total code line : 2764
 
 상세 구현
 - 삼각형, 사각형, 평면, 원, 구, 원기둥, 빛의 3D 이미지 생성
@@ -410,6 +425,8 @@ UTF-8 이 어떻게 생긴 포멧인지를 이해하는 것은 고통스러웠�
 - 목표: C 언어의 printf() 함수의 경량 버전을 만들어보는 42 프로젝트
 - language: C
 - environment: Vim, Git
+- team size : 1 명
+- total code line : 1181
 
 상세 구현
 - '0', '-', '#', ' ', '+' flag 구현
@@ -427,6 +444,8 @@ UTF-8 이 어떻게 생긴 포멧인지를 이해하는 것은 고통스러웠�
 - 목표: 주어진 fd 로부터 한 줄의 데이터를 읽어서 caller 에게 전달하는 함수를 만들어보는 42 프로젝트
 - language: C
 - environment: Vim, Git
+- team size : 1 명
+- total code line : 479
 
 
 
@@ -437,6 +456,8 @@ UTF-8 이 어떻게 생긴 포멧인지를 이해하는 것은 고통스러웠�
 - 목표: 명세서의 함수들을 구현하여 libft.a 라이브러리 파일을 만드는 42 프로젝트
 - language: C
 - environment: Vim, Git
+- team size : 1 명
+- total code line : 1252
 
 
 
@@ -497,8 +518,11 @@ serial print 로 4x4 의 X 를 계속 출력하다가 주기적으로 O 로 변�
 ### 자판기 프로그램
 
 - 목표: 도서관 책 대출 프로그램의 자판기 버전
+- GitHub : https://github.com/Liemani/_deprecated_portfolio/tree/main/project/VendingMachine
 - language: C
 - environment: VS Code, Git
+- team size : 1 명
+- total line number : 1027
 
 상세 구현
 - 프롬프트로 금액을 입력받고 선택한 음료에 대한 반응 출력
@@ -517,6 +541,8 @@ serial print 로 4x4 의 X 를 계속 출력하다가 주기적으로 O 로 변�
 - 앱 링크: https://apkpure.com/haven-and-hearth-assistant/com.havenandhearthassistant
 - language: Kotlin
 - environment: Android Studio
+- team size : 1 명
+- total line number : 596
 
 상세 구현
 - Haven and Hearth 게임에 필요한 계산을 도와주는 프로그램 작성
