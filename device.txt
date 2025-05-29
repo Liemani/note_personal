@@ -1,29 +1,4 @@
-template :
-class_id
-{
-  vendor :
-  model :
-  specification link :
-  chip :
-  memory :
-  storage :
-  size :
-    height :
-    width :
-    depth :
-  weight :
-}
-
-instance_id
-{
-  model :
-  purchase date :
-  date received :
-  purchase cost :
-  option :
-}
-
-class :
+device_model :
 arduino
 {
   model : Arduino
@@ -64,6 +39,7 @@ mac_mini_2018
     3.2GHz 6-core Intel Core i7
     Turbo Boost up to 4.6GHz
     12MB shared L3 cache
+    8th generation Core codenamed "Coffee Lake"
     intel core i7-8700B
   memory : 64GB of 2666MHz DDR4 SO-DIMM memory
   storage : 256GB PCIe-based SSD
@@ -101,13 +77,38 @@ mac_mini_2024
   weight : 0.67 kg
 }
 
+macbook_air_m1_2020
+{
+  vendor : Apple
+  model : MacBook Air (M1, 2020)
+  specification link : https://support.apple.com/en-us/111883
+  chip : Apple M1 chip
+    8-core CPU with 4 perform­ance cores and 4 efficiency cores
+    7-core GPU, 8-core GPU
+    16-core Neural Engine
+  memory : 8GB unified memory
+  storage : 256GB SSD
+  size :
+    height : 0.16–0.63 inch (0.41–1.61 cm)
+    width : 11.97 inches (30.41 cm)
+    depth : 8.36 inches (21.24 cm)
+  weight : 2.8 pounds (1.29 kg)
+}
+
 ssd
 {
   vendor : Sandisk
   model : Sandisk Extreme Portable SSD V2 E61
 }
 
-instance :
+device :
+LiBook2012
+{
+  model : MacBook Air (M1, 2020)
+  purchase date : 2020-12-24
+  purchase cost : 1,365,000
+}
+
 LiMini2401
 {
   model : Mac mini (2018)
@@ -126,7 +127,7 @@ LiMini2411
     storage : 512GB
 }
 
-com
+win
 {
   model : Sandisk Extreme Portable SSD V2 E61
   size : 2TB
@@ -138,4 +139,11 @@ mac
   model : Sandisk Extreme Portable SSD V2 E61
   size : 2TB
   format : APFS
+}
+
+sony
+{
+  model : SONY SL-BG Series (256GB)
+  size : 256GB
+  format : NTFS
 }

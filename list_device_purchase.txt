@@ -105,3 +105,6 @@ Mac mini M4_2024 24/512 1,490,000
 
 2024-12-01 Sun
 Sandisk Extreme Portable SSD V2 E61 (2TB) 201,000
+
+2025-05-03 Sat
+EFM ipTIME AX1500SR 유무선공유기 35,880
